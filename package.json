@@ -1,0 +1,8 @@
+{
+  "name": "tsbase",
+  "version": "0.0.1",
+  "description": "Typescript and node starter project using Ava for testing",
+  "main": "index.js",
+  "author": "Gareth Hunt",
+  "license": "MIT"
+}
