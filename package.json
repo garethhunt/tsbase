@@ -17,7 +17,8 @@
     "build": "tsc --build",
     "clean": "tsc --build --clean",
     "dist": "tsc --project tsconfig.dist.json",
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "watch": "tsc --watch & ava --watch"
   },
   "ava": {
     "files": [
