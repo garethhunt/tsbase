@@ -1,4 +1,4 @@
-function helloModule (module: string) {
+function helloModule(module: string) {
   return `Hello ${module} module`;
 }
 
