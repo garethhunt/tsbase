@@ -17,3 +17,4 @@ The template will provide opinions on how to:
 1. $ npm run build
 1. $ npm test
 1. Add your own code
+2. $ npm dist
