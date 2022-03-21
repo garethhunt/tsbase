@@ -12,4 +12,8 @@ The template will provide opinions on how to:
 
 ## How to use
 
-TODO
+1. Clone this repo
+1. $ npm i
+1. $ npm run build
+1. $ npm test
+1. Add your own code

@@ -6,11 +6,26 @@
   "author": "Gareth Hunt",
   "license": "MIT",
   "devDependencies": {
+    "@ava/typescript": "^3.0.1",
     "@tsconfig/node16": "^1.0.2",
     "@types/node": "^16.11.7",
+    "ava": "^4.1.0",
     "typescript": "^4.6.2"
   },
   "scripts": {
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.spec.ts"
+    ],
+    "typescript": {
+      "rewritePaths": {
+        "src/": ".build/src/",
+        "test/": ".build/test/"
+      },
+      "compile": false
+    }
   }
 }
